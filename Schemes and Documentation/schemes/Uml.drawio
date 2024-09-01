@@ -1,0 +1,74 @@
+<mxfile host="Electron" modified="2024-09-01T09:10:41.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RVAkBw-k2EUXY8j43p3U" version="23.1.5" type="device">
+  <diagram name="Page-1" id="imB_znSFJSUgp-hFAH8G">
+    <mxGraphModel dx="1366" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-1" value="WebApiProject" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="129.95999999999998" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-2" value="GrpcServiceProject" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="269.96" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=206;exitDy=14;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-3" target="GiuM5Nrt7_TEajUzS8Nv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=206;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-3" target="GiuM5Nrt7_TEajUzS8Nv-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="259.96" />
+              <mxPoint x="670" y="294.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-3" value="DataAccessLibrary" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="209.95999999999998" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=20;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=20;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-1" target="GiuM5Nrt7_TEajUzS8Nv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="109.96" />
+              <mxPoint x="420" y="109.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=20;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=20;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-2" target="GiuM5Nrt7_TEajUzS8Nv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-15" value="SQL" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="169.95999999999998" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-16" value="NO-SQL" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="264.96" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-21" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="204.95999999999998" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-21" target="GiuM5Nrt7_TEajUzS8Nv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;" edge="1" parent="1" source="GiuM5Nrt7_TEajUzS8Nv-21" target="GiuM5Nrt7_TEajUzS8Nv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-27" value="&lt;pre style=&quot;unicode-bidi: isolate; font-size: 28px; line-height: 36px; background-color: rgb(248, 249, 250); border: none; padding: 2px 0.14em 2px 0px; position: relative; margin-top: -2px; margin-bottom: -2px; resize: none; font-family: inherit; overflow: hidden; width: 270px; overflow-wrap: break-word; color: rgb(31, 31, 31);&quot; dir=&quot;ltr&quot; data-ved=&quot;2ahUKEwjascTlmqCIAxUAAhAIHe1KAJgQ3ewLegQIBxAU&quot; aria-label=&quot;Переведенный текст&quot; id=&quot;tw-target-text&quot; data-placeholder=&quot;Перевод&quot; class=&quot;tw-data-text tw-text-large tw-ta&quot;&gt;&lt;b&gt;Project Architecture&lt;/b&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-29" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="780" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-31" value="WebApiController " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-32" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GiuM5Nrt7_TEajUzS8Nv-31">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GiuM5Nrt7_TEajUzS8Nv-31">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GiuM5Nrt7_TEajUzS8Nv-34" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GiuM5Nrt7_TEajUzS8Nv-31">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
